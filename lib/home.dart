@@ -7,7 +7,7 @@ class AreRichApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blueGrey[900],
-      body: Container(),
+      body: SingleChildScrollView(),
     );
   }
 }
